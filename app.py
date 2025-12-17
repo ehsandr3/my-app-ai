@@ -94,5 +94,6 @@ elif choice == "🪄 ویرایشگر جادویی":
                             final_url = f"https://pollinations.ai/p/{res.text.replace(' ', '%20')}?width=1024&height=1024"
                             st.image(final_url, caption="نتیجه بازسازی شده")
                         except Exception as e:
-                            st.error("خطای دسترسی (403)!
+                         st.error("خطای دسترسی (403)! سرور قادر به اتصال نیست.")
+
                                      
